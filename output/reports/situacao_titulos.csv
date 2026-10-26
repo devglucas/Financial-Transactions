@@ -1,0 +1,8 @@
+situacao,qtd_pagar,qtd_receber,valor_pagar,valor_receber
+A vencer,58,106,935921.93,846452.53
+"Baixado no ERP, sem movimento no banco",1,6,38889.81,37674.51
+Cancelado,0,77,0.0,569863.91
+Conciliado,677,2249,13454623.98,18797549.81
+"Pago no banco, mas cancelado no ERP",3,0,24191.53,0.0
+"Pago no banco, sem baixa no ERP",28,85,516055.05,703257.4
+Vencido em aberto,2,155,40449.34,1319123.71

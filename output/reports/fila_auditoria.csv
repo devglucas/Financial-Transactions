@@ -1,0 +1,38 @@
+titulo_id,score,regras,detalhes,nome,categoria,documento,data_pagamento,banco,valor
+TIT-03426,3,pagamento_duplicado,mesmo valor do título TIT-03101 (doc 73964) pago 5 dia(s) antes,Transportadora Rota Certa,Logística,73964-1,2025-11-17,beta,21700.34
+TIT-03430,3,pagamento_duplicado,mesmo valor do título TIT-02825 (doc 86236) pago 3 dia(s) antes,Açúcar União Paulista,Matéria-prima,86236-1,2025-05-05,beta,21471.64
+TIT-03425,3,pagamento_duplicado,mesmo valor do título TIT-02921 (doc 78946) pago 7 dia(s) antes,Café Montanhês,Matéria-prima,78946B,2025-05-26,beta,16401.37
+TIT-03432,3,pagamento_duplicado,mesmo valor do título TIT-02800 (doc 80376) pago 1 dia(s) antes,Cerealista Planalto,Matéria-prima,80376B,2025-08-19,beta,12207.52
+TIT-03428,3,pagamento_duplicado,mesmo valor do título TIT-03138 (doc 79715) pago 3 dia(s) antes,Frota Rápida Logística,Logística,79715A,2025-03-10,beta,10038.79
+TIT-03148,3,titulo_cancelado_pago,título cancelado no ERP com pagamento no banco,Frota Rápida Logística,Logística,79878,2025-07-21,beta,9345.76
+TIT-02684,3,titulo_cancelado_pago,título cancelado no ERP com pagamento no banco,Moinho Santa Clara,Matéria-prima,34651,2025-02-14,beta,8455.43
+TIT-03037,3,titulo_cancelado_pago,título cancelado no ERP com pagamento no banco,Papelão Ondulado Sul,Embalagens,80722,2025-03-21,beta,6390.34
+TIT-03427,3,pagamento_duplicado,mesmo valor do título TIT-03137 (doc 79704) pago 2 dia(s) antes,Frota Rápida Logística,Logística,79704A,2025-03-07,beta,5900.82
+TIT-03429,3,pagamento_duplicado,mesmo valor do título TIT-03330 (doc 68228) pago 7 dia(s) antes,Saneamento Municipal,Utilidades,68228A,2025-05-12,beta,5498.59
+TIT-03431,3,pagamento_duplicado,mesmo valor do título TIT-03033 (doc 80665) pago 3 dia(s) antes,Papelão Ondulado Sul,Embalagens,80665B,2025-02-24,beta,2217.78
+TIT-03422,2,valor_atipico,z robusto = 3.6 no histórico do fornecedor,Chile Fruit Export,Importação,INV-2025-81130,2025-08-04,gama,194596.12
+TIT-02697,2,valor_atipico,z robusto = 7.2 no histórico do fornecedor,Moinho Santa Clara,Matéria-prima,34884,2025-05-20,beta,190938.71
+TIT-02743,2,valor_atipico,z robusto = 4.7 no histórico do fornecedor,Laticínios Serra Azul,Matéria-prima,61049,2025-11-21,beta,147507.79
+TIT-03039,2,valor_atipico,z robusto = 4.2 no histórico do fornecedor,Papelão Ondulado Sul,Embalagens,80749,2025-06-17,beta,94492.41
+TIT-03091,2,valor_atipico,z robusto = 4.8 no histórico do fornecedor,Transportadora Rota Certa,Logística,73771,2025-09-01,beta,90648.78
+TIT-03446,2,fornecedor_novo,fornecedor cadastrado 5 dias antes do pagamento,Alfa Assessoria Empresarial,Serviços,172,2025-07-08,beta,89908.57
+TIT-03445,2,fornecedor_novo,fornecedor cadastrado 17 dias antes do pagamento,Prisma Consultoria Estratégica,Serviços,387,2025-04-22,beta,76459.33
+TIT-03447,2,fornecedor_novo,fornecedor cadastrado 15 dias antes do pagamento,Nexus Serviços Gerais,Serviços,439,2025-09-15,beta,68775.22
+TIT-03197,2,valor_atipico,z robusto = 4.1 no histórico do fornecedor,Armazéns Gerais Tietê,Logística,41082,2025-12-05,beta,32916.36
+TIT-03442,2,fracionamento,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,589662,2025-10-29,beta,9945.9
+TIT-03436,2,fracionamento,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,572347,2025-08-18,beta,9905.51
+TIT-03444,2,fracionamento,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,589664,2025-10-29,beta,9901.98
+TIT-03443,2,fracionamento,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,589663,2025-10-29,beta,9848.03
+TIT-03439,2,fracionamento,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",Armazéns Gerais Tietê,Logística,395143,2025-08-18,beta,9756.44
+TIT-03433,2,fracionamento,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",Papelão Ondulado Sul,Embalagens,306632,2025-05-12,beta,9722.88
+TIT-03435,2,fracionamento,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",Papelão Ondulado Sul,Embalagens,306634,2025-05-12,beta,9695.9
+TIT-03441,2,fracionamento,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",Armazéns Gerais Tietê,Logística,395145,2025-08-18,beta,9680.73
+TIT-03434,2,fracionamento,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",Papelão Ondulado Sul,Embalagens,306633,2025-05-12,beta,9641.79
+TIT-03440,2,fracionamento,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",Armazéns Gerais Tietê,Logística,395144,2025-08-18,beta,9607.47
+TIT-03437,2,fracionamento,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,572348,2025-08-18,beta,9573.64
+TIT-03438,2,fracionamento,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",Embalagens Fortpack,Embalagens,572349,2025-08-18,beta,9554.16
+TIT-02886,1,pagamento_fora_de_dia_util,pago em Saturday,Grãos do Cerrado,Matéria-prima,1875,2025-07-12,beta,23219.94
+TIT-02731,1,pagamento_fora_de_dia_util,pago em Sunday,Laticínios Serra Azul,Matéria-prima,60824,2025-08-17,beta,19788.62
+TIT-02760,1,pagamento_fora_de_dia_util,pago em Saturday,Frigorífico Boi Bom,Matéria-prima,88843,2025-08-16,beta,17326.1
+TIT-03151,1,pagamento_fora_de_dia_util,pago em Sunday,Frota Rápida Logística,Logística,79954,2025-08-24,beta,16468.5
+TIT-03267,1,pagamento_fora_de_dia_util,pago em Sunday,Segurança Vigilante,Serviços,57904,2025-07-06,beta,5174.32

@@ -1,0 +1,7 @@
+regra,apontados,esperados,acertos,precisao_pct,recall_pct
+fornecedor_novo,3,3,3,100.0,100.0
+fracionamento,12,12,12,100.0,100.0
+pagamento_duplicado,8,8,8,100.0,100.0
+pagamento_fora_de_dia_util,5,5,5,100.0,100.0
+titulo_cancelado_pago,3,3,3,100.0,100.0
+valor_atipico,6,6,4,66.67,66.67

@@ -1,0 +1,23 @@
+tabela,regra,severidade,ocorrencias,passou
+movimentos,mov_id único,critica,0,True
+movimentos,valor preenchido e diferente de zero,critica,0,True
+movimentos,todo movimento classificado,critica,0,True
+títulos,titulo_id único,critica,0,True
+títulos,valor positivo,critica,0,True
+títulos,título em moeda estrangeira tem cotação,critica,0,True
+conciliação,cada movimento ligado a no máximo um título,critica,0,True
+conciliação,cada título ligado a no máximo um movimento,critica,0,True
+conciliação,recebimento só com crédito e pagamento só com débito,critica,0,True
+conciliação,só recebimentos/pagamentos são conciliados,critica,0,True
+movimentos,transferências internas pareadas somam zero,critica,0,True
+caixa,saldo final alfa = abertura + movimentos,critica,0,True
+caixa,saldo final beta = abertura + movimentos,critica,0,True
+caixa,saldo final gama = abertura + movimentos,critica,0,True
+extratos,lançamentos faltando no extrato (saldo corrido/trailer),alerta,5,False
+movimentos,transferência interna sem contrapartida,alerta,0,True
+movimentos,recebimento/pagamento sem título no ERP,alerta,0,True
+conciliação,diferença de valor sem explicação,alerta,0,True
+títulos,pago no banco sem baixa no ERP,alerta,113,False
+títulos,baixado no ERP sem dinheiro no banco (não explicado),alerta,2,False
+títulos,título a receber vencido em aberto,alerta,155,False
+auditoria,pagamentos na fila da auditoria,alerta,37,False

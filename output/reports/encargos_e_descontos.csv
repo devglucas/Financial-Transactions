@@ -1,0 +1,6 @@
+tipo,natureza_diferenca,ocorrencias,valor
+PAGAR,desconto,12,-3999.48
+PAGAR,juros_e_multa,31,8027.03
+PAGAR,spread_cambial,56,30060.99
+RECEBER,desconto,98,-15898.43
+RECEBER,juros_e_multa,501,116077.31

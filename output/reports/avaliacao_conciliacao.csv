@@ -1,0 +1,6 @@
+regra,apontados,esperados,acertos,precisao_pct,recall_pct
+referencia_documento,2098,,2098,100.0,
+valor_exato,715,,715,100.0,
+valor_aproximado_nome,173,,173,100.0,
+cambio_ptax,56,,56,100.0,
+TOTAL,3042,3043.0,3042,100.0,99.97

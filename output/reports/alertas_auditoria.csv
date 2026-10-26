@@ -1,0 +1,38 @@
+titulo_id,detalhe,regra,peso
+TIT-03427,mesmo valor do título TIT-03137 (doc 79704) pago 2 dia(s) antes,pagamento_duplicado,3
+TIT-03428,mesmo valor do título TIT-03138 (doc 79715) pago 3 dia(s) antes,pagamento_duplicado,3
+TIT-03425,mesmo valor do título TIT-02921 (doc 78946) pago 7 dia(s) antes,pagamento_duplicado,3
+TIT-03426,mesmo valor do título TIT-03101 (doc 73964) pago 5 dia(s) antes,pagamento_duplicado,3
+TIT-03431,mesmo valor do título TIT-03033 (doc 80665) pago 3 dia(s) antes,pagamento_duplicado,3
+TIT-03430,mesmo valor do título TIT-02825 (doc 86236) pago 3 dia(s) antes,pagamento_duplicado,3
+TIT-03429,mesmo valor do título TIT-03330 (doc 68228) pago 7 dia(s) antes,pagamento_duplicado,3
+TIT-03432,mesmo valor do título TIT-02800 (doc 80376) pago 1 dia(s) antes,pagamento_duplicado,3
+TIT-02684,título cancelado no ERP com pagamento no banco,titulo_cancelado_pago,3
+TIT-03037,título cancelado no ERP com pagamento no banco,titulo_cancelado_pago,3
+TIT-03148,título cancelado no ERP com pagamento no banco,titulo_cancelado_pago,3
+TIT-03435,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",fracionamento,2
+TIT-03440,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",fracionamento,2
+TIT-03441,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",fracionamento,2
+TIT-03439,"3 notas no mesmo dia somando R$ 29,044.64, cada uma abaixo da alçada",fracionamento,2
+TIT-03437,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",fracionamento,2
+TIT-03433,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",fracionamento,2
+TIT-03434,"3 notas no mesmo dia somando R$ 29,060.57, cada uma abaixo da alçada",fracionamento,2
+TIT-03436,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",fracionamento,2
+TIT-03438,"3 notas no mesmo dia somando R$ 29,033.31, cada uma abaixo da alçada",fracionamento,2
+TIT-03444,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",fracionamento,2
+TIT-03442,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",fracionamento,2
+TIT-03443,"3 notas no mesmo dia somando R$ 29,695.91, cada uma abaixo da alçada",fracionamento,2
+TIT-03446,fornecedor cadastrado 5 dias antes do pagamento,fornecedor_novo,2
+TIT-03445,fornecedor cadastrado 17 dias antes do pagamento,fornecedor_novo,2
+TIT-03447,fornecedor cadastrado 15 dias antes do pagamento,fornecedor_novo,2
+TIT-02697,z robusto = 7.2 no histórico do fornecedor,valor_atipico,2
+TIT-03039,z robusto = 4.2 no histórico do fornecedor,valor_atipico,2
+TIT-03091,z robusto = 4.8 no histórico do fornecedor,valor_atipico,2
+TIT-02743,z robusto = 4.7 no histórico do fornecedor,valor_atipico,2
+TIT-03197,z robusto = 4.1 no histórico do fornecedor,valor_atipico,2
+TIT-03422,z robusto = 3.6 no histórico do fornecedor,valor_atipico,2
+TIT-03151,pago em Sunday,pagamento_fora_de_dia_util,1
+TIT-02731,pago em Sunday,pagamento_fora_de_dia_util,1
+TIT-02760,pago em Saturday,pagamento_fora_de_dia_util,1
+TIT-03267,pago em Sunday,pagamento_fora_de_dia_util,1
+TIT-02886,pago em Saturday,pagamento_fora_de_dia_util,1
