@@ -114,7 +114,8 @@ def limpar_contrapartes(df: pd.DataFrame) -> pd.DataFrame:
         nome=df["nome"].str.strip(),
         categoria=canonica,
         data_cadastro=pd.to_datetime(df["data_cadastro"], format="%Y-%m-%d"),
-        nome_banco=normalizar_texto(df["nome"]).str.replace(r"[&.]", " ", regex=True).str.replace(r"\s+", " ", regex=True),
+        # como os bancos gravam o favorecido: CAIXA ALTA, sem acento, '&' vira 'E' e sem pontos
+        nome_banco=normalizar_texto(df["nome"]).str.replace("&", "E", regex=False).str.replace(".", "", regex=False),
     ).drop(columns="linha_origem")
 
 

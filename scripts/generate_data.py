@@ -348,7 +348,8 @@ def gerar_movimentos(rng, titulos: list[dict], contrapartes: list[dict]) -> dict
                          else f"PIX RECEBIDO {nome_banco(t['nome'], 25)}" + (f" NF {t['documento']}" if rng.random() < 0.3 else ""))
             lancar("alfa", t["data_pag"], historico, t["valor_pago_brl"], t)
         elif t["banco"] == "gama":
-            lancar("gama", t["data_pag"], f"CAMBIO IMPORTACAO {nome_banco(t['nome'], 22)} {t['documento']}", -t["valor_pago_brl"], t)
+            referencia = f" {t['documento']}" if rng.random() < 0.6 else ""  # nem sempre o banco repassa a invoice
+            lancar("gama", t["data_pag"], f"CAMBIO IMPORTACAO {nome_banco(t['nome'], 22)}{referencia}", -t["valor_pago_brl"], t)
             lancar("gama", t["data_pag"], "IOF S/ OPERACAO CAMBIO", -round(t["valor_pago_brl"] * 0.0038, 2), tipo_real="imposto")
             lancar("gama", t["data_pag"], "TARIFA CONTRATO CAMBIO", -120.00, tipo_real="tarifa")
         else:

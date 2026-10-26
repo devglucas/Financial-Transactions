@@ -5,13 +5,13 @@ CLI-003,Padaria Central,CLIENTE,Cliente,BRL,2022-05-24
 CLI-004,Atacadão Central,CLIENTE,Cliente,BRL,2022-06-01
 CLI-005,Mercado Avenida,CLIENTE,Cliente,BRL,2024-07-01
 CLI-006,Hotel Vitória,CLIENTE,Cliente,BRL,2024-01-30
-CLI-007,Atacadão Boa Vista,CLIENTE,CLIENTE,BRL,2021-10-27
-CLI-008,Mercado Família ,CLIENTE,Cliente,BRL,2023-07-19
+CLI-007,Atacadão Boa Vista,CLIENTE,Cliente,BRL,2021-10-27
+CLI-008,Mercado Família,CLIENTE,Cliente,BRL,2023-07-19
 CLI-009,Lanchonete Primavera,CLIENTE,Cliente,BRL,2018-10-30
 CLI-010,Restaurante União,CLIENTE,Cliente,BRL,2021-07-05
 CLI-011,Mercado Vitória,CLIENTE,Cliente,BRL,2023-06-25
-CLI-012,Hotel Real,CLIENTE,CLIENTE,BRL,2024-06-29
-CLI-013,Empório Boa Vista,CLIENTE,CLIENTE,BRL,2021-04-12
+CLI-012,Hotel Real,CLIENTE,Cliente,BRL,2024-06-29
+CLI-013,Empório Boa Vista,CLIENTE,Cliente,BRL,2021-04-12
 CLI-014,Mercado Sol Nascente,CLIENTE,Cliente,BRL,2021-09-26
 CLI-015,Mercado Nova Era,CLIENTE,Cliente,BRL,2019-11-28
 CLI-016,Lanchonete Central,CLIENTE,Cliente,BRL,2018-05-24
@@ -19,16 +19,16 @@ CLI-017,Empório Brasil,CLIENTE,Cliente,BRL,2022-01-14
 CLI-018,Atacadão Nova Era,CLIENTE,Cliente,BRL,2021-12-10
 CLI-019,Padaria Família,CLIENTE,Cliente,BRL,2023-04-08
 CLI-020,Restaurante Brasil,CLIENTE,Cliente,BRL,2022-05-22
-CLI-021,Mercearia Primavera,CLIENTE,CLIENTE,BRL,2023-11-25
+CLI-021,Mercearia Primavera,CLIENTE,Cliente,BRL,2023-11-25
 CLI-022,Lanchonete Paulista,CLIENTE,Cliente,BRL,2020-06-11
-CLI-023,Empório Bandeirantes ,CLIENTE,Cliente,BRL,2018-02-07
+CLI-023,Empório Bandeirantes,CLIENTE,Cliente,BRL,2018-02-07
 CLI-024,Supermercado Aurora,CLIENTE,Cliente,BRL,2020-08-07
-CLI-025,Supermercado Nova Era,CLIENTE,CLIENTE,BRL,2018-02-14
+CLI-025,Supermercado Nova Era ,CLIENTE,Cliente,BRL,2018-02-14
 CLI-026,Empório Avenida,CLIENTE,Cliente,BRL,2021-12-26
 CLI-027,Lanchonete Sol Nascente,CLIENTE,Cliente,BRL,2018-07-28
 CLI-028,Mercado Central,CLIENTE,Cliente,BRL,2020-06-02
 CLI-029,Hortifruti Estrela ,CLIENTE,Cliente,BRL,2021-05-24
-CLI-030,Hotel Primavera,CLIENTE,Cliente,BRL,2020-07-30
+CLI-030,Hotel Primavera,CLIENTE,CLIENTE,BRL,2020-07-30
 CLI-031,Padaria Avenida,CLIENTE,Cliente,BRL,2021-04-06
 CLI-032,Supermercado Real,CLIENTE,Cliente,BRL,2024-01-17
 CLI-033,Hotel Santa Luzia,CLIENTE,Cliente,BRL,2021-12-06
@@ -42,9 +42,9 @@ CLI-040,Padaria Bom Preço,CLIENTE,Cliente,BRL,2020-07-21
 CLI-041,Restaurante Avenida,CLIENTE,Cliente,BRL,2021-05-17
 CLI-042,Restaurante Família,CLIENTE,Cliente,BRL,2022-02-15
 CLI-043,Mercearia Vitória,CLIENTE,Cliente,BRL,2021-11-05
-CLI-044,Empório Família,CLIENTE,Cliente,BRL,2023-12-23
+CLI-044,Empório Família ,CLIENTE,Cliente,BRL,2023-12-23
 CLI-045,Lanchonete Avenida,CLIENTE,Cliente,BRL,2023-01-11
-CLI-046,Supermercado São Jorge,CLIENTE,Cliente,BRL,2023-05-24
+CLI-046,Supermercado São Jorge,CLIENTE,CLIENTE,BRL,2023-05-24
 CLI-047,Mercado Brasil,CLIENTE,Cliente,BRL,2023-01-31
 CLI-048,Supermercado União,CLIENTE,Cliente,BRL,2023-12-10
 CLI-049,Padaria Boa Vista,CLIENTE,Cliente,BRL,2021-12-03
@@ -54,26 +54,26 @@ CLI-052,Mercado Real,CLIENTE,Cliente,BRL,2020-05-13
 CLI-053,Padaria Vitória,CLIENTE,Cliente,BRL,2018-12-31
 CLI-054,Mercearia Real ,CLIENTE,Cliente,BRL,2022-07-06
 CLI-055,Mercado União,CLIENTE,Cliente,BRL,2019-04-11
-CLI-056,Hortifruti Brasil,CLIENTE,Cliente,BRL,2018-11-22
+CLI-056,Hortifruti Brasil,CLIENTE,CLIENTE,BRL,2018-11-22
 CLI-057,Hotel Bom Preço,CLIENTE,Cliente,BRL,2020-12-08
-CLI-058,Restaurante Estrela ,CLIENTE,Cliente,BRL,2020-06-22
-CLI-059,Hortifruti Vitória,CLIENTE,CLIENTE,BRL,2020-12-20
+CLI-058,Restaurante Estrela,CLIENTE,CLIENTE,BRL,2020-06-22
+CLI-059,Hortifruti Vitória,CLIENTE,Cliente,BRL,2020-12-20
 CLI-060,Hotel Nova Era,CLIENTE,Cliente,BRL,2019-12-31
 CLI-061,Mercearia São Jorge,CLIENTE,Cliente,BRL,2018-05-17
 CLI-062,Hotel Avenida,CLIENTE,Cliente,BRL,2018-08-12
-CLI-063,Empório Popular,CLIENTE,Cliente,BRL,2022-03-02
+CLI-063,Empório Popular,CLIENTE,CLIENTE,BRL,2022-03-02
 CLI-064,Padaria Estrela,CLIENTE,Cliente,BRL,2023-12-19
 CLI-065,Restaurante Popular,CLIENTE,Cliente,BRL,2019-04-15
 CLI-066,Restaurante Bom Preço,CLIENTE,Cliente,BRL,2019-07-09
-CLI-067,Mercearia Estrela,CLIENTE,Cliente,BRL,2019-02-17
-CLI-068,Supermercado Estrela,CLIENTE,Cliente,BRL,2022-08-19
-CLI-069,Padaria Primavera,CLIENTE,Cliente,BRL,2019-11-26
+CLI-067,Mercearia Estrela,CLIENTE,CLIENTE,BRL,2019-02-17
+CLI-068,Supermercado Estrela,CLIENTE,CLIENTE,BRL,2022-08-19
+CLI-069,Padaria Primavera ,CLIENTE,Cliente,BRL,2019-11-26
 CLI-070,Supermercado Boa Vista,CLIENTE,Cliente,BRL,2021-10-23
 CLI-071,Atacadão Avenida,CLIENTE,Cliente,BRL,2020-07-15
 CLI-072,Empório Real,CLIENTE,Cliente,BRL,2021-01-11
-CLI-073,Lanchonete Família ,CLIENTE,Cliente,BRL,2021-02-23
+CLI-073,Lanchonete Família,CLIENTE,CLIENTE,BRL,2021-02-23
 CLI-074,Mercado Primavera,CLIENTE,Cliente,BRL,2018-01-03
-CLI-075,Hortifruti Central,CLIENTE,CLIENTE,BRL,2018-07-18
+CLI-075,Hortifruti Central,CLIENTE,Cliente,BRL,2018-07-18
 CLI-076,Empório Central,CLIENTE,Cliente,BRL,2024-05-18
 CLI-077,Mercado Estrela,CLIENTE,Cliente,BRL,2019-06-30
 CLI-078,Empório Estrela,CLIENTE,Cliente,BRL,2022-12-05
@@ -81,11 +81,11 @@ CLI-079,Supermercado Família,CLIENTE,Cliente,BRL,2022-09-18
 CLI-080,Hortifruti São Jorge,CLIENTE,Cliente,BRL,2024-02-16
 CLI-081,Mercado Paulista,CLIENTE,Cliente,BRL,2019-05-18
 CLI-082,Mercearia Boa Vista,CLIENTE,Cliente,BRL,2018-03-29
-CLI-083,Hortifruti Nova Era ,CLIENTE,Cliente,BRL,2023-06-15
+CLI-083,Hortifruti Nova Era,CLIENTE,Cliente,BRL,2023-06-15
 CLI-084,Hortifruti Ipiranga,CLIENTE,Cliente,BRL,2020-01-31
-CLI-085,Mercado São Jorge,CLIENTE,CLIENTE,BRL,2021-09-22
+CLI-085,Mercado São Jorge,CLIENTE,Cliente,BRL,2021-09-22
 CLI-086,Hotel São Jorge,CLIENTE,Cliente,BRL,2020-06-28
-CLI-087,Lanchonete Aurora,CLIENTE,CLIENTE,BRL,2020-11-14
+CLI-087,Lanchonete Aurora,CLIENTE,Cliente,BRL,2020-11-14
 CLI-088,Mercado Bandeirantes,CLIENTE,Cliente,BRL,2021-11-21
 CLI-089,Empório São Jorge,CLIENTE,Cliente,BRL,2021-06-05
 CLI-090,Padaria Santa Luzia,CLIENTE,Cliente,BRL,2021-12-29
@@ -94,15 +94,15 @@ CLI-092,Hortifruti Avenida,CLIENTE,CLIENTE,BRL,2018-03-15
 CLI-093,Hotel Central,CLIENTE,Cliente,BRL,2024-05-29
 CLI-094,Empório Bom Preço,CLIENTE,Cliente,BRL,2021-06-08
 CLI-095,Restaurante Real,CLIENTE,Cliente,BRL,2019-08-11
-CLI-096,Lanchonete Estrela,CLIENTE,CLIENTE,BRL,2022-06-09
-CLI-097,Supermercado Santa Luzia,CLIENTE,CLIENTE,BRL,2023-12-18
-CLI-098,Hortifruti Real ,CLIENTE,Cliente,BRL,2022-04-03
+CLI-096,Lanchonete Estrela,CLIENTE,Cliente,BRL,2022-06-09
+CLI-097,Supermercado Santa Luzia,CLIENTE,Cliente,BRL,2023-12-18
+CLI-098,Hortifruti Real,CLIENTE,Cliente,BRL,2022-04-03
 CLI-099,Padaria Paulista,CLIENTE,Cliente,BRL,2019-01-20
 CLI-100,Atacadão Bandeirantes,CLIENTE,Cliente,BRL,2019-04-27
 CLI-101,Empório Paulista,CLIENTE,Cliente,BRL,2022-08-28
-CLI-102,Padaria Real,CLIENTE,CLIENTE,BRL,2019-04-09
-CLI-103,Mercearia Aurora,CLIENTE,Cliente,BRL,2020-10-04
-CLI-104,Restaurante Boa Vista,CLIENTE,Cliente,BRL,2022-02-05
+CLI-102,Padaria Real,CLIENTE,Cliente,BRL,2019-04-09
+CLI-103,Mercearia Aurora ,CLIENTE,Cliente,BRL,2020-10-04
+CLI-104,Restaurante Boa Vista,CLIENTE,CLIENTE,BRL,2022-02-05
 CLI-105,Hortifruti Aurora,CLIENTE,Cliente,BRL,2023-02-25
 CLI-106,Mercearia Popular,CLIENTE,Cliente,BRL,2024-03-31
 CLI-107,Empório União,CLIENTE,Cliente,BRL,2019-04-01
@@ -113,46 +113,46 @@ CLI-111,Lanchonete Popular,CLIENTE,Cliente,BRL,2021-01-31
 CLI-112,Atacadão Paulista,CLIENTE,Cliente,BRL,2024-05-11
 CLI-113,Supermercado Ipiranga,CLIENTE,Cliente,BRL,2020-02-29
 CLI-114,Supermercado Popular,CLIENTE,Cliente,BRL,2018-04-07
-CLI-115,Hortifruti Bom Preço,CLIENTE,Cliente,BRL,2022-11-08
-CLI-116,Lanchonete Boa Vista,CLIENTE,Cliente,BRL,2021-08-08
+CLI-115,Hortifruti Bom Preço,CLIENTE,CLIENTE,BRL,2022-11-08
+CLI-116,Lanchonete Boa Vista ,CLIENTE,Cliente,BRL,2021-08-08
 CLI-117,Restaurante São Jorge,CLIENTE,Cliente,BRL,2023-01-17
 CLI-118,Hortifruti Bandeirantes,CLIENTE,Cliente,BRL,2018-09-14
 CLI-119,Restaurante Paulista,CLIENTE,Cliente,BRL,2023-03-29
 CLI-120,Padaria Aurora,CLIENTE,Cliente,BRL,2020-12-26
-FOR-001,Moinho Santa Clara,FORNECEDOR,MATÉRIA-PRIMA,BRL,2017-11-03
+FOR-001,Moinho Santa Clara,FORNECEDOR,Matéria-prima,BRL,2017-11-03
 FOR-002,Laticínios Serra Azul,FORNECEDOR,Matéria-prima,BRL,2023-03-06
 FOR-003,Frigorífico Boi Bom,FORNECEDOR,Matéria-prima,BRL,2022-05-01
 FOR-004,Cerealista Planalto,FORNECEDOR,Matéria-prima,BRL,2021-12-13
 FOR-005,Açúcar União Paulista,FORNECEDOR,Matéria-prima,BRL,2020-12-06
 FOR-006,Grãos do Cerrado,FORNECEDOR,Matéria-prima,BRL,2023-08-03
-FOR-007,Café Montanhês,FORNECEDOR,Matéria-prima,BRL,2016-12-12
+FOR-007,Café Montanhês,FORNECEDOR,MATÉRIA-PRIMA,BRL,2016-12-12
 FOR-008,Hortigranjeiros Vale Verde,FORNECEDOR,Matéria-prima,BRL,2018-12-21
 FOR-009,Embalagens Fortpack,FORNECEDOR,Embalagens,BRL,2022-04-14
 FOR-010,Plásticos Ideal,FORNECEDOR,Embalagens,BRL,2018-10-03
-FOR-011,Papelão Ondulado Sul,FORNECEDOR,Embalagens,BRL,2018-11-14
-FOR-012,Rótulos & Cia ,FORNECEDOR,Embalagens,BRL,2023-10-22
-FOR-013,Transportadora Rota Certa,FORNECEDOR,LOGÍSTICA,BRL,2020-06-20
+FOR-011,Papelão Ondulado Sul,FORNECEDOR,EMBALAGENS,BRL,2018-11-14
+FOR-012,Rótulos & Cia,FORNECEDOR,Embalagens,BRL,2023-10-22
+FOR-013,Transportadora Rota Certa,FORNECEDOR,Logística,BRL,2020-06-20
 FOR-014,Expresso Litoral,FORNECEDOR,Logística,BRL,2021-05-01
 FOR-015,Frota Rápida Logística,FORNECEDOR,Logística,BRL,2018-08-14
-FOR-016,Armazéns Gerais Tietê,FORNECEDOR,Logística,BRL,2020-12-21
+FOR-016,Armazéns Gerais Tietê,FORNECEDOR,LOGÍSTICA,BRL,2020-12-21
 FOR-017,Refrigeração Polar,FORNECEDOR,Manutenção,BRL,2020-06-26
 FOR-018,MaqServ Manutenção Industrial,FORNECEDOR,Manutenção,BRL,2023-11-13
 FOR-019,Elétrica Faísca,FORNECEDOR,Manutenção,BRL,2016-04-01
 FOR-020,Contabilidade Exata,FORNECEDOR,Serviços,BRL,2016-07-11
 FOR-021,Limpeza Brilho Total,FORNECEDOR,Serviços,BRL,2016-11-08
-FOR-022,Segurança Vigilante,FORNECEDOR,Serviços,BRL,2016-05-22
+FOR-022,Segurança Vigilante,FORNECEDOR,SERVIÇOS,BRL,2016-05-22
 FOR-023,Nuvem Sistemas ERP,FORNECEDOR,Tecnologia,BRL,2018-04-22
-FOR-024,Telecom Conecta,FORNECEDOR,TECNOLOGIA,BRL,2019-04-18
-FOR-025,Datacenter Seguro ,FORNECEDOR,Tecnologia,BRL,2017-05-01
+FOR-024,Telecom Conecta ,FORNECEDOR,Tecnologia,BRL,2019-04-18
+FOR-025,Datacenter Seguro,FORNECEDOR,Tecnologia,BRL,2017-05-01
 FOR-026,Energia Paulista S.A.,FORNECEDOR,Utilidades,BRL,2019-10-21
-FOR-027,Saneamento Municipal,FORNECEDOR,Utilidades,BRL,2018-11-02
-FOR-028,Gás Natural Vale,FORNECEDOR,Utilidades,BRL,2017-02-14
-FOR-029,Imobiliária Patrimônio,FORNECEDOR,Imóveis,BRL,2023-07-15
+FOR-027,Saneamento Municipal ,FORNECEDOR,Utilidades,BRL,2018-11-02
+FOR-028,Gás Natural Vale,FORNECEDOR,UTILIDADES,BRL,2017-02-14
+FOR-029,Imobiliária Patrimônio,FORNECEDOR,IMÓVEIS,BRL,2023-07-15
 FOR-030,Andean Coffee Exporters,FORNECEDOR,Importação,USD,2023-02-06
 FOR-031,Pacific Spice Traders,FORNECEDOR,Importação,USD,2020-11-26
 FOR-032,Hellas Olive Oil,FORNECEDOR,Importação,EUR,2019-10-09
 FOR-033,Iberia Conservas,FORNECEDOR,Importação,EUR,2021-04-01
-FOR-034,Chile Fruit Export,FORNECEDOR,Importação,USD,2021-08-29
+FOR-034,Chile Fruit Export ,FORNECEDOR,Importação,USD,2021-08-29
 FOR-900,Prisma Consultoria Estratégica,FORNECEDOR,Serviços,BRL,2025-04-05
-FOR-901,Alfa Assessoria Empresarial,FORNECEDOR,SERVIÇOS,BRL,2025-07-03
+FOR-901,Alfa Assessoria Empresarial,FORNECEDOR,Serviços,BRL,2025-07-03
 FOR-902,Nexus Serviços Gerais,FORNECEDOR,Serviços,BRL,2025-08-31
