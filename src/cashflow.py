@@ -97,11 +97,12 @@ def maiores_devedores(titulos: pd.DataFrame, contrapartes: pd.DataFrame, n: int 
     return ranking.sort_values("valor_vencido", ascending=False).head(n).reset_index()
 
 
-def projecao_caixa(titulos: pd.DataFrame, saldo_final: float, dias: int = 60) -> pd.DataFrame:
+def projecao_caixa(titulos: pd.DataFrame, saldo_final: float, dias: int = 40) -> pd.DataFrame:
     """
     Saldo projetado a partir do saldo consolidado do corte, somando recebimentos
     e pagamentos previstos pelos títulos A VENCER. Vencidos em aberto ficam de
-    fora: não há data provável para entrarem.
+    fora: não há data provável para entrarem. O horizonte (40 dias) é o que a
+    carteira já emitida cobre; além dele a projeção seria uma linha reta.
     """
     a_vencer = titulos[titulos["situacao"] == "a_vencer"]
     previsto = a_vencer.assign(valor=a_vencer["valor_brl_centavos"].astype("float64") * a_vencer["sentido"])
