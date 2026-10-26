@@ -44,7 +44,10 @@ JANELA_DIAS_APOS_VENCIMENTO = 60      # pagamento em atraso aceito
 VARIACAO_MINIMA = -0.06               # desconto máximo esperado (pontualidade)
 VARIACAO_MAXIMA = 0.12                # multa + juros máximos esperados
 TOLERANCIA_CAMBIO = 0.015             # spread do banco sobre a PTAX
-DIAS_TRANSFERENCIA_INTERNA = 2        # D+0 a D+2 para a TED cair na outra conta
+DIAS_UTEIS_TRANSFERENCIA = 2          # a TED cai na outra conta em até D+2 úteis
+
+NOME_EMPRESA_NO_BANCO = "ANDES DISTRIB"   # como o banco grava a própria empresa
+DIAS_ESTORNO = 5
 
 # Anomalias
 ALCADA_APROVACAO = 1_000_000          # R$ 10.000,00 em centavos

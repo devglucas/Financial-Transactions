@@ -56,6 +56,12 @@ def reais(centavos) -> float | pd.Series:
     return centavos / 100
 
 
+def dias_uteis_entre(inicio: pd.Series, fim: pd.Series, feriados) -> pd.Series:
+    """Dias úteis de `inicio` (inclusive) até `fim` (exclusive); negativo se fim < inicio."""
+    return pd.Series(np.busday_count(inicio.values.astype("datetime64[D]"), fim.values.astype("datetime64[D]"),
+                                     holidays=feriados.values.astype("datetime64[D]")), index=inicio.index)
+
+
 # --------------------------------------------------------------------------- #
 # Rejeição e formatação
 # --------------------------------------------------------------------------- #
@@ -86,3 +92,21 @@ def df_para_markdown(df: pd.DataFrame, casas: int = 2) -> str:
         for linha in df.itertuples(index=False)
     ]
     return "\n".join([cabecalho, separador, *linhas])
+
+
+# --------------------------------------------------------------------------- #
+# Emparelhamento
+# --------------------------------------------------------------------------- #
+def emparelhar_um_para_um(candidatos: pd.DataFrame, chave_a: str, chave_b: str) -> pd.DataFrame:
+    """
+    Escolha gulosa de pares 1:1. `candidatos` já vem ordenado do melhor para o
+    pior par; cada lado só pode ser usado uma vez. É o critério usado por
+    analistas: o par mais evidente primeiro, depois os demais com o que sobrou.
+    """
+    usados_a, usados_b, escolhidos = set(), set(), []
+    for posicao, (a, b) in enumerate(zip(candidatos[chave_a], candidatos[chave_b])):
+        if a not in usados_a and b not in usados_b:
+            usados_a.add(a)
+            usados_b.add(b)
+            escolhidos.append(posicao)
+    return candidatos.iloc[escolhidos]
