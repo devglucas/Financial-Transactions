@@ -60,3 +60,22 @@ def conferir_saldo_corrido(movimentos: pd.DataFrame, aberturas: dict) -> tuple[p
     resumo["diferenca"] = resumo["saldo_final_informado"] - resumo["saldo_final_calculado"]
     log.info("saldo corrido: %d quebras (possíveis lançamentos faltando no extrato)", len(quebras))
     return quebras, resumo
+
+
+def lancamentos_perdidos(quebras: pd.DataFrame, trailer: pd.DataFrame) -> pd.DataFrame:
+    """Junta o que os dois controles revelaram: valor (com sinal) de cada lançamento que falta."""
+    perdidos = []
+    if not quebras.empty:
+        perdidos.append(pd.DataFrame({
+            "banco": quebras["banco"], "data_aproximada": quebras["e_data"],
+            "valor_centavos": (quebras["valor_faltante"] * 100).round().astype("int64"),
+            "origem": "quebra do saldo corrido",
+        }))
+    diferencas = trailer.set_index("controle")["diferenca"]
+    for controle, sinal in [("total de débitos (centavos)", -1), ("total de créditos (centavos)", 1)]:
+        if diferencas.get(controle, 0):
+            perdidos.append(pd.DataFrame([{"banco": "gama", "data_aproximada": pd.NaT,
+                                           "valor_centavos": sinal * int(diferencas[controle]),
+                                           "origem": "diferença do trailer CNAB"}]))
+    return pd.concat(perdidos, ignore_index=True) if perdidos else pd.DataFrame(
+        columns=["banco", "data_aproximada", "valor_centavos", "origem"])

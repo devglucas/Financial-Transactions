@@ -43,6 +43,9 @@ JANELA_DIAS_ANTES_VENCIMENTO = 15     # pagamento antecipado aceito
 JANELA_DIAS_APOS_VENCIMENTO = 60      # pagamento em atraso aceito
 VARIACAO_MINIMA = -0.06               # desconto máximo esperado (pontualidade)
 VARIACAO_MAXIMA = 0.12                # multa + juros máximos esperados
+MULTA_ATRASO = 0.02                   # condições contratuais de cobrança
+JUROS_AO_MES = 0.01
+DESCONTO_PONTUALIDADE = 0.02
 TOLERANCIA_CAMBIO = 0.015             # spread do banco sobre a PTAX
 DIAS_UTEIS_TRANSFERENCIA = 2          # a TED cai na outra conta em até D+2 úteis
 

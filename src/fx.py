@@ -17,8 +17,11 @@ DEFASAGEM_MAXIMA = pd.Timedelta(days=7)
 def cotacao_na_data(df: pd.DataFrame, ptax: pd.DataFrame, coluna_data: str) -> pd.DataFrame:
     """Acrescenta ptax_venda e data_cotacao a um DataFrame com colunas `moeda` e `coluna_data`."""
     estrangeiras = df["moeda"].ne("BRL") & df[coluna_data].notna()
-    consulta = df.loc[estrangeiras, ["moeda", coluna_data]].reset_index().sort_values(coluna_data)
+    # merge_asof exige chaves do MESMO tipo (no pandas 3 há mais de um tipo de string)
+    consulta = df.loc[estrangeiras, ["moeda", coluna_data]].astype({"moeda": "string"}).reset_index()
+    consulta = consulta.sort_values(coluna_data)
     cotacoes = ptax[["data", "moeda", "venda"]].rename(columns={"data": "data_cotacao", "venda": "ptax_venda"})
+    cotacoes = cotacoes.astype({"moeda": "string"})
     resultado = pd.merge_asof(
         consulta, cotacoes.sort_values("data_cotacao"), left_on=coluna_data, right_on="data_cotacao",
         by="moeda", direction="backward", tolerance=DEFASAGEM_MAXIMA,
